@@ -1,0 +1,21 @@
+<p>currency-converter works!</p>
+<div>
+    <label for="usdAmount">USD Amount:</label>
+    <input type="number" id="usdAmount" [(ngModel)]="usdAmount">
+  </div>
+  <div>
+    <button (click)="convert()">Convert</button>
+  </div>
+  <div>
+    <label for="inrAmount">INR:</label>
+    <span>{{ inrAmount }}</span>
+  </div>
+  <div>
+    <label for="eurAmount">EUR:</label>
+    <span>{{ eurAmount }}</span>
+  </div>
+  <div>
+    <label for="jpyAmount">JPY:</label>
+    <span>{{ jpyAmount }}</span>
+  </div>
+  
